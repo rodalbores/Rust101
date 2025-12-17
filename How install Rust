@@ -1,0 +1,20 @@
+Install Rust
+
+1. curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
+2. source "$HOME/.cargo/env"
+
+3. cargo new <folder_name>
+
+4. cd <folder_name>
+
+5. cargo add tokio or cargo add tokio --features full
+
+sudo apt update
+sudo apt install build-essential
+
+cargo clean
+
+cargo run
+
+cargo build --release
